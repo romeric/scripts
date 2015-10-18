@@ -33,8 +33,8 @@ cd ~
 echo Cloning numba repository
 git clone https://github.com/numba/numba
 echo Entering directory numba 
-cd llvmlite
-echo Building and Installing llvmlite
+cd numba
+echo Building and Installing numba
 sudo pip install -r requirements.txt
 sudo python setup.py build_ext --inplace
 sudo python setup.py install
